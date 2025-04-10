@@ -1,2 +1,2 @@
-neighbors/alaskensis.fasta
-neighbors/chilensis.fasta
+neighbors/hamburgensis.fasta
+neighbors/vulgaris.fasta

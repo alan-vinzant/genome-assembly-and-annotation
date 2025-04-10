@@ -1,0 +1,2 @@
+spadesoutgalaxy/scaffolds.fasta	neighbors/vulgaris.fasta	86.6124	818	2059
+spadesoutgalaxy/scaffolds.fasta	neighbors/hamburgensis.fasta	84.6228	789	2059
