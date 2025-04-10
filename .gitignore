@@ -1,0 +1,10 @@
+*.fastq
+*.fastg
+dfast_output/genome.gff
+dfast_output/ddbj/mss.fasta
+prokkaout/genome.gbk
+prokkaout/genome.gff
+spadesoutgalaxy/assemblygraph.fastg
+spadesoutgalaxy/assemblygraphwithscaffolds.txt
+spadesoutgalaxy/contigs.fasta
+spadesoutgalaxy/scaffolds.fasta

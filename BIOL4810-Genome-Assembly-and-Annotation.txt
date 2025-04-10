@@ -1,0 +1,30 @@
+Genome Assembly and Annotation
+
+Assembly using SPAdes v4.1.0
+# spades.py --memory 2 --onlyassembler -1 -1 Alan_1.fastq -2 Alan_2.fastq -o spadesout
+--onlyassembler
+
+Assembly using SPAdes Galaxy Version 3.15.5+galaxy3
+FASTA/FASTQ file(s): forward reads
+	Alan_1.fastq.gz
+FASTA/FASTQ file(s): reverse reads
+	Alan_2.fastq.gz
+Use default settings
+
+
+Assembly with ABySS GNU Make 4.4.1
+# abyss-pe name=assembly k=96 B=2G in='Alan_1.fastq Alan_2.fastq'
+
+Assembly using ABySS Galaxy Version 2.3.10+galaxy0
+Insert paired-end library
+Paired-end reads 1
+	Alan_1.fastq.gz
+Paired-end reads 2
+	Alan_2.fastq.gz
+K-mer length (in bp):
+	96
+Default settings on everything else
+
+Qualisty assessment of assembly using QUAST v5.3.0
+# quast.py spadesout/scaffolds.fasta -o quastspades
+

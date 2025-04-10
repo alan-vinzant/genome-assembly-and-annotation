@@ -1,0 +1,10 @@
+*.gz
+*.fastq
+genome.embl
+*.gff
+genome.fna
+*.gbk
+assemblygraph.fastg
+assemblygraphwithscaffolds.txt
+contigs.fasta
+scaffolds.fasta
